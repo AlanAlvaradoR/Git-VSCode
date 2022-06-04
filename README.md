@@ -119,7 +119,7 @@ git push -u origin main
 git add .
 git commit "numero del commit"
 git push origin main 
-``
+```
 
 22. Ahora debreriamos ver algo como esto
 
