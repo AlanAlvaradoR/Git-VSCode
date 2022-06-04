@@ -83,19 +83,23 @@ Otra alternativa si no aparece la opción es ir a: Tu imagen de perfil (parte su
 
 17. Ahora en la terminal que abrimos escribiremos lo siquiente y presionamos enter después de cada línea de código
 
-- git init
-
-- git add README.md                                 
+```Bash
+git init
+git add README.md     
+```
 *NOTA: si agregamos imagenes, debemos escribir en cambio esto otro: git add .
 
-- git commit -m "first commit"
+```Bash
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/AlanAlvaradoR/repo-para.git 
+```
 
-- git branch -M main
-
-- git remote add origin https://github.com/AlanAlvaradoR/repo-para.git         
 *NOTA:(el link debe ser reemplazado por el que copiamos de Github anteriormente)
 
-- git push -u origin main
+```Bash
+git push -u origin main
+```
 
 18. Si solo subimos el archivo README.md sin imagenes, deberiamos ver algo como esto:
 
@@ -111,9 +115,11 @@ Otra alternativa si no aparece la opción es ir a: Tu imagen de perfil (parte su
 
 21. En el archivo README.md debemos cambiar el link de cada una de las imagenes por el nuevo que nos da github y, volver a actualizar el repositorio desde la terminal con:
 
-- git add .
-- git commit "numero del commit"
-- git push origin main 
+```Bash
+git add .
+git commit "numero del commit"
+git push origin main 
+``
 
 22. Ahora debreriamos ver algo como esto
 
